@@ -1,0 +1,82 @@
+
+
+	 
+.navbar .nav-item:hover .nav-link{color:yellow;  border-bottom: 3px solid #243463;  
+	
+}
+.navbar .nav-item dropdown :hover .dropdown-menu .dropdown-item{color:yellow;  border-bottom: 3px solid #243463;  
+	
+}
+
+
+
+
+.topnav
+{ 
+     transition:.5s ease;
+	background-color:#949494;
+	
+	
+	
+}
+.topnav.scrolled
+{
+	background-color:#5cb85c ;
+	
+}
+.fi.scrolled{
+	background-color:#f0fcf6;
+	
+}
+.topnav a:hover 
+{
+	border-bottom:3px solid #243463;
+	
+}
+ 
+ 
+ 
+ [aria-expanded="false"] > .expanded,
+                 [aria-expanded="true"] > .collapsed {
+                  display: none;
+                    }
+					.container
+			 {
+			   position:relative;
+			  
+			 }
+			 .image {
+				  display: block;
+				  width: 100%;
+				  height: auto;
+				}
+				.overlay {
+                  position: absolute;
+				  top:50%;
+				  bottom: 0;
+				  left: 0;
+				  right: 0;
+				  height: 20%;
+				  width: auto;
+				  opacity: 0;
+				  transition: .5s ease;
+				  background-color:rgba(0,0,0,0.5);
+				  
+				} 
+				.container:hover .overlay {
+         opacity: 1;
+		 
+         }
+		 @media all and (min-width:450px)
+		 {
+		  .overlay
+		  {
+		   position:absolute;
+		  }
+		  .card p
+		  {
+			  padding:10px;
+			  
+			  
+		  }
+		  

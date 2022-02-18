@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	     <meta charset="utf-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	     <title>Dunks Design Craft</title>
+		     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+			 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
+			 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
+		      <link rel="icon" type="image/png" sizes="32x32"href="images/favicon.png">
+		      <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+			 
+			 <link rel="stylesheet" href="min.css">
+			 <script src="dunks.js"></script>
+      		 <style>
+			 
+			 
+			 [aria-expanded="false"] > .expanded,
+                 [aria-expanded="true"] > .collapsed {
+                  display: none;
+                    }
+					 #feedback {
+					height: 0px;
+					width: 75px;
+					position: fixed;
+					right: 0;
+					top: 50%;
+					z-index: 1000;
+					transform: rotate(-90deg);
+					-webkit-transform: rotate(-90deg);
+					-moz-transform: rotate(-90deg);
+					-o-transform: rotate(-90deg);
+					
+				}
+				#feedback a {
+					display: block;
+					background:#000;
+					height: 52px;
+					padding-top: 10px;
+					width: 155px;
+					text-align: center;
+					color: #fff;
+					font-family: Arial, sans-serif;
+					font-size: 17px;
+					font-weight: bold;
+					text-decoration: none;
+				}
+				#feedback a:hover {
+					background:#00495d;
+				}
+
+			 
+
+			 </style>
+		 	 
+	 
+	 
+	 </head>
+
+    <body> 
+	       <!-- nav bar-->
+	     <nav class="navbar navbar-expand-md navbar-light  navbar-custom topnav">
+             <a class="navbar-brand" href="#" alt="responsive-image"> <img src="images/logo_transparent.png" alt="Dunks Design Craft">
+			 </a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                 <ul class="navbar-nav ml-auto">
+                     <li class="nav-item ">
+                         <a class="nav-link font-weight-bold" href="index.html" >Home </a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link font-weight-bold" href="About.html">About</a>
+                     </li>
+            
+                     <li class="nav-item dropdown navbar-custom">
+                         <a class="nav-link dropdown-toggle font-weight-bold""  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Products </a>
+                             <ul class="dropdown-menu navbar-custom" aria-labelledby="navbarDropdownMenuLink">
+                    
+                    
+                                 <li class="dropdown-submenu font-weight-bold""><a class="dropdown-item dropdown-toggle" >upvc Doors & Window </a>
+                                      <ul class="dropdown-menu dropdown-menu navbar-custom">
+                                         <li><a class="dropdown-item font-weight-bold"  href="casement.html">Casement Doors & Window</a></li>
+                                         <li><a class="dropdown-item font-weight-bold" href="sliding.html">Sliding Doors & Window</a></li>
+							             <li><a class="dropdown-item font-weight-bold" href="slide.html">Slide & Fold Doors & window</a></li>
+							             <li><a class="dropdown-item font-weight-bold" href="till.html">Till & Turn Doors & Windows</a></li>
+							             <li><a class="dropdown-item font-weight-bold" href="franch.html">Franch Doors & Windows</a></li>
+                            
+                            
+                                     </ul>
+                                 </li>
+                             </ul>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link font-weight-bold" href="Partner.html">Gallery</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link font-weight-bold" href="portfolio.html">Our Projects</a>
+                     </li>
+					 <li class="nav-item">
+                         <a class="nav-link font-weight-bold" href="glass.html">Glass</a>
+                     </li>
+					 <li class="nav-item">
+                         <a class="nav-link font-weight-bold" href="resources.html">Resources</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link font-weight-bold" href="contact.php">Contact</a>
+                     </li>
+                 </ul>
+             </div>	
+         </nav>
+		 <!--Sticky modal-->
+	            
+				<div class="text-center"  id="feedback">
+                   <a href="#popup1" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">
+                      Cost Estimate</a>
+                      </div>
+			         <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                     <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+				  <div class="modal-header text-center">
+					<h4 class="modal-title w-100 font-weight-bold text-success">Cost Estimate</h4>
+					
+					<button type="button" class="close navbar-dark" data-dismiss="modal" aria-label="Close">
+					  <div aria-hidden="true" class="text-success" > &times;</div>
+					</button>
+				  </div>
+				  <form name="frm1" action="" method="">
+				  <div class="modal-body mx-3">
+				  
+					<div class="md-form mb-5">
+					
+					  <label data-error="wrong" data-success="right" for="form34" class="text-success">Products</label>
+					      <select class="form-control " id="exampleFormControlSelect1" name="products">
+						      <option>Select Products</option>
+							  <option>Casement Window</option>
+							  <option>Casement Door</option>
+							  <option>Sliding Window</option>
+							  <option>Sliding Door</option>
+							  <option>Till & Turn Window</option>
+							  <option>Fixed Window</option>
+							  <option>Fixed Door</option>
+						</select>
+					  
+					</div>
+
+					<div class="md-form mb-5">
+					     
+					 <div class="row">
+					     <div class="col">
+						 
+							  <label data-error="wrong" data-success="right" for="form32" class="text-success">Height</label>
+							  <input type="text" id="form32" class="form-control validate" name="Quantity" required>
+					     </div>
+						 <div class="col">
+							  <label data-error="wrong" data-success="right" for="form32" class="text-success">Width</label>
+							  <input type="text" id="form32" class="form-control validate" name="Quantity" required>
+					     </div>
+					 </div> 
+					     
+					</div>
+
+					<div class="md-form mb-5">
+					  <label data-error="wrong" data-success="right" for="form32" class="text-success">Quantity</label>
+					  <input type="text" id="form32" class="form-control validate" name="Quantity" required>
+					  
+					</div>
+
+					
+					  <div class="form-group">
+						<label for="exampleFormControlSelect1" class="text-success"> Glass </label>
+						<select class="form-control" id="exampleFormControlSelect1" name="glass">
+						 <option>Please Select Size of Glass</option>
+						  <option>5 mm</option>
+						  <option>6 mm</option>
+						  <option>8 mm</option>
+						  <option>10 mm</option>
+						  
+						</select>
+					  </div>
+					  
+					  <div class="form-group">
+						<label for="exampleFormControlSelect1" class="text-success"> Category </label>
+						<select class="form-control" id="exampleFormControlSelect1" name="comment">
+						 <option>Please Select Category</option>
+						  <option>Tuffaned glass</option>
+						  <option>Plane Glass</option>
+						  <option>Non-tuffaned</option>
+						  <option>Customize Glass</option>
+						  
+						  
+						</select>
+					  </div>
+											  
+					
+
+				  </div>
+				  <div class="modal-footer d-flex justify-content-center">
+					<a class=" text-light" href="modal-form.html" ><button class="btn btn-success btn-lg btn-block">Send </a></button>
+					<a class=" text-light" href="modal-form.html" ><button type="button" class="btn btn-success btn-block btn-lg" data-dismiss="modal">Close</a></button>
+				  </div>
+				</div>
+				</form>
+			  </div>
+			</div>
+								
+		 
+		 
+		
+		  <!--slider-->
+		        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+					  <div class="carousel-inner">
+						<div class="carousel-item active">
+						  <img src="images/banner1.jpg" class="d-block w-100" alt="...">
+						</div>
+						
+						<div class="carousel-item">
+						  <img src="images/banner1.jpg" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+						  <img src="images/banner1.jpg" class="d-block w-100" alt="...">
+						</div>
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					  </a>
+					</div>
+					
+		<div class="container">
+	             <div class="card-block bg-transparent">
+				  <h1 class="text-success" >About Us</h1>
+				     <hr>
+					 <p><strong>After spending my formative years gaining experience in window and door manufacturing, I jumped at the opportunity in 2020 to start Dunks Design Craft. My specialist team and I built a successful business on providing custom wooden doors, windows and mouldings paying close attention to quality. Custom products are the core of our business and DDC prides itself in providing these at affordable prices.</strong></p>
+			   
+   	              <p class="collapse" id="block-id">
+                  Setup in 2020, "Dunks Design Craft", Dunks Design Craft is a manufacturer and installer of uPVC  doors and windows with single, double and triple glazing systems.  Our team consists of seasoned professionals that specialize in the field of uPVC windows and doors with more than 1 years’ experience in the industry. Using the highest quality of international materials, hardware and accessories we assure our customers the finest finished product as well as a 10 yr. guarantee on our products  and services. Our uPVC profile is manufactured from REHAU which is a German technology that is perfectly suited and compatible with South Africa’s harsh climate.  Our upvc profile is WISPECO manufactured, one of South Africa’s leading industry suppliers of upvc with a Level 4 BBBEE rating, which offers 100% recognition as BEE spend.  
+				   
+				 
+				  
+				  Across India and particularly in the North India, uPVC windows dominate the market and Dunks Design Craft  is the number one systems supplier. Dunks Design Craft creates PVC extrusions for windows and doors that set new standards for premium performance and distinctive design. From aesthetics to function and durability, Dunks Design Craft products benefit from quality materials and the most advanced technology.
+
+					The extensive range meets the requirements of both refurbishment and new construction applications in residential and commercial buildings. With nearly 1 years of expertise in product research and development, Dunks Design Craft has built its reputation on innovative, well-engineered designs.
+
+					Whether you are looking for single or double glazed windows or doors, multi-fold stacking doors, double glazed sash windows or any other window to suit your home, we can assist you. Dunks Design Craft uses an approved network of specialist fabricators and installers, guaranteeing you world class service.
+					</p>
+				  
+					
+				<a href="#block-id" class="btn btn-success  " data-toggle="collapse" aria-expanded="false" aria-controls="block-id">
+					 <div class="collapsed text-light ">
+					 Show more
+					 </div>
+					 <div class="expanded text-light">
+					 Show Less
+					 </div>
+                 </a>		
+             </div>	
+		 </div>
+         <br>		 
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+		<!--footer-->
+		 <!--footer-->
+		 <footer class="page-footer " style="background-color:#d9fffe; ">
+		     <div class="container">
+              <div class="row">
+              <div class="col-sm" >
+                 <h5 class="card-body text-dark">Dunks Design Craft </h5>
+				 <p class="card-text text-dark">B-8,400,TF</p>
+				 <p class="card-text text-dark">Sector-7 Brahamputra Enclave Siddarth Vihar</p>
+				 <p class="card-text text-dark ">Delhi-NCR-201001</p>
+				 
+                </div>
+                  <div class="col-sm  ">
+				     <h5 class="card-body text-dark">Contact </h5>
+					 <p class="text-dark"><i class="fa fa-phone" aria-hidden="true"></i>
+                     <a  class="text-dark" href="tel:+919555235110">+919555235110</a>    <a class="text-dark" href="tel:+918859010985">
+                      +918859010985</a> </p>
+					  <p class="text-dark"><i class="fa fa-whatsapp" aria-hidden="true"></i> <a class="text-dark" href="https://wa.me/917409180301?text=Hello">Connect With Us</a>
+                     </p>
+            
+					<p class="text-dark"> <i class="fa fa-envelope-o" aria-hidden="true"></i> <a  class="text-dark" href="mailto:info@vikingsapplication.com">info@dunkdesign.com</a></p>
+                     
+              
+              </div>
+                     <div class="col-sm "  >
+                     <h5 class="card-body  text-dark">Follow Us</h5>
+					  <div class="footer-social">
+					   
+						<div class="template-demo"> <button type="button" class="btn btn-social-icon btn-outline-facebook"><i class="fa fa-facebook"></i></button> <button type="button" class="btn btn-social-icon btn-outline-youtube"><i class="fa fa-youtube"></i></button> <button type="button" class="btn btn-social-icon btn-outline-twitter"><i class="fa fa-twitter"></i></button> <button type="button" class="btn btn-social-icon btn-outline-dribbble"><i class="fa fa-dribbble"></i></button> <button type="button" class="btn btn-social-icon btn-outline-linkedin"><i class="fa fa-linkedin"></i></button> <button type="button" class="btn btn-social-icon btn-outline-instagram"><i class="fa fa-instagram"></i></button> </div>
+					  </div>
+					   </div>
+                  </div>
+             </div>
+		 
+	        <!-- copy right-->
+		      <div class="footer-copyright text-center py-3 text-dark" >© 2020 Copyright:
+               <a href="www.vikingsapplication.com" class="text-dark"> Dunks Design Craft</a>
+             </div>
+			 </div>
+		 </footer> 
+		 
+	
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+	     
+	     
+	     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	     
+	</body>
+
+
+
+</html>		

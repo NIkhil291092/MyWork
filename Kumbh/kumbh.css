@@ -1,0 +1,48 @@
+*{
+	margin:0px;
+	padding:0px;
+	}
+.footer{
+	background-color:black;
+	height:210px;
+	width:100%;
+}
+p{
+	font-size:17px;
+	list-style:none;
+
+}
+
+nav ul li a{
+	color:white;
+	margin:15px;
+	padding:px;
+}
+a:hover{
+	border-bottom:1px solid white;
+	color:white;
+}
+.topnav
+{
+	background-color:#b71c1c ;
+}
+p a h1{
+	color:white;
+	text-decoration:none;
+
+}
+.text{
+	color:#b71c1c;
+}
+ p a {
+	color:white;
+	text-decoration:none;
+}
+.text-white{
+	font:20px;
+}
+h4
+{
+	color:white;
+}
+

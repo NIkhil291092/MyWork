@@ -1,0 +1,89 @@
+<html>
+     <head>
+	     <title></title>
+		 <meta name="viewport" content="width=device-width inital-scale=1.0">
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+		 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	     <script> 
+			$(document).ready(function(){
+			  $("#flip").click(function(){
+				$("#panel").slideToggle("slow");
+				$("#mail").slideToggle("slow");
+				$("#name").slideToggle("slow");
+				$("ul").slideToggle("slow");
+			  });
+			});
+			</script>
+			<style> 
+             #panel  {
+			  padding: 5px;
+			  text-align: center;
+			  background-color: #e5eecc;
+			  border: solid 1px #c3c3c3;
+			  width:20%;
+             }
+			 #flip {
+			  padding: 5px;
+			  text-align: center;
+			  background-color: #e5eecc;
+			  border: solid 1px #c3c3c3;
+			  width:10%;
+             }
+			 #panel, #mail,#name,ul{
+			  padding: 50px;
+			  display: none;
+              }
+			  #mail
+			  {
+			  margin-left:2px;
+			  padding:2px;
+			  
+			  }
+			  #name
+			  {
+			  
+			  padding:2px;
+			  
+			  }
+			 
+			  
+			  
+			</style>
+		</head>
+		<body>
+ 
+			<div id="flip"><i class="fa fa-bars"></i></div>
+			
+			<div id="panel"><img src="logo.jpg" class="rounded-circle" style="height:60px; width:60px;">
+			 <div id="name"><h5>Deepak Sharm</h5></div>
+			<div id="mail" >Deepaksharma@gmail.com</div>
+			 <ul style="list-style-type:none;">
+			     <li><i class="icon-dashboard"></i>Dashboard</li>
+				 <li><i class="far fa-star"></i>Depositor</li>
+			 </ul>
+             
+
+
+		 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+         
+         <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+         
+		 
+	 </body>
+	 
+</html>

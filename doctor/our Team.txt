@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	     <meta charset="UTF-8">
+		 <title>About Us | VIkings Application & Services </title>
+            <meta name="Description" content=" At vikings vikings systems vikings applicationVikings Application & Service is a hapur based organization which provide services in digital technology such as Web-Development, Mobile Development & Digital Marketing and supply services in IT infrastructure and office supply...">
+            <meta name="Keywords" content="About VIkings Application & Services,Viking,viking application,vikings application & services, vikings application hapur, software company hapur, website design hapur , vikings hapur">
+	     <meta name="viewport" content="width=device-width, initial-scale=1">
+	      <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	     <link rel="stylesheet" href="../min.css">
+	  <!-- Add icon library -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+	 
+        <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+		 <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+		 <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C2SWG5CXYW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C2SWG5CXYW');
+</script>
+	 <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PCCMWWR');</script>
+<!-- End Google Tag Manager -->
+	 </head>
+	 <body onmousedown="return false" onselectstart="return false" style="padding-top: 65px;">
+	 <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PCCMWWR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	 <!--header-->
+	      <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #faf6d4; ">
+         <a class="navbar-brand" href="../"><img src="../images/logo1.png" alt="Vikings Application & Services"></a>
+         
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         
+          <ul class="navbar-nav ml-auto topnav">
+          <li class="nav-item ">
+          <a class="nav-link" href="../">Home </a>
+         </li>
+	     <li class="nav-item">
+          <a class="nav-link" href="./">About</a>
+		
+          </li>
+	     <li class="nav-item dropdown">
+          <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+          <div class="dropdown-menu  dropdown-menu-right navbar-primary" style="background-color: #faf6d4; ">
+          <a class="dropdown-item" href="../services/web-development/">Web Development</a>
+          <a class="dropdown-item " href="../services/mobile-app-development/"> Mobile App Development</a>
+          <a class="dropdown-item " href="../services/digital-marketing/">Digital Marketing</a>
+         
+           </div>
+		    </li>
+	     <li class="nav-item dropdown  ">
+              <a class="nav-link " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Supply</a>
+             <div class="dropdown-menu   dropdown-menu-right navbar-primary" style="background-color: #faf6d4;   ">
+             <a class="dropdown-item  " href="../supply/lab-setup/">Lab Supply</a>
+             <a class="dropdown-item " href="../supply/stationary-and-housekeeping/">Stationary And Housekeeping</a>
+          
+         
+              </div>
+             </li>
+         
+	     <li class="nav-item">
+                 <a class="nav-link" href="../contact/Contact.php">Contact Us</a>
+		
+         </li>
+	  </ul>
+    
+  </div>
+</nav>
+
+<!--image-->
+     <div class="container">
+	     <img src="../images/about.jpg" alt="About Vikings Application & Services" title="About Vikings Application & Services" description="About Vikings Application & Services" class="img-fluid">
+		 <!--content matter-->
+	 </div>
+	 <br>
+	 <div class="container">
+	     <div class="card-block bg-transparent">
+	          <h1 >About Us</h1>
+		     <p><strong>Vikings Application &amp; Services,</strong> Change your business thoughts into versatile mobile applications with Vikings. The mobile application development has created inventive spaces in the business today. It holds the possibility for the eventual fate of a business. We make portable applications for different stages like Android, iOS, and cross-stage platforms. Our mobile application improvement group has a long streak in releasing full proof, quality applications in the Google Play store, and iOS application stores. We likewise give custom mobile application answers to re-establish any difficulties in your regular organizations..</p>
+			   <p>
+   	     <p class="collapse" id="block-id">
+                 Vikings have a lively group of software engineers who have a rich involvement with making mobile applications that convey client necessities. Ours all-around comprised and adjusted group of engineers, business advancement directors, quality examiners, marketing specialists, etc can solve any complexities that can come up even before the delivery of the app. Vikings manufacture incredible mobile applications that are highlighted in rich and easy to use. The mobile application development we offer is multi-dimensional, drawing bits of knowledge from numerous points of view on business, innovation, end customer, and clients.
+                 From idea to application programming developments, Vikings applications cover the whole mobile application development cycle, regardless of how different or complex your needs are. Our capacity to address your issues originate from our group of specialists, who have long stretched of involvement with worldwide application arrangement services and engineering ventures. From successful new companies, any startups, or any established organizations, we try to smooth out the work process, incorporate productivity into one consistent example, and hence increments the efficiency of a business enterprise.
+                    Our applications consist of several features like news, videos, photos, audio, statistics, etc. You can also download the Vikings tickets to better management. Also, it can gain the Vikings Rewards points or using the application.
+</p>
+                  <!-- aria-expanded attribute is mandatory -->
+          <!-- bootstrap changes it to true/false on toggle -->
+        <a href="#block-id" class="btn btn-primary bg-transparent" data-toggle="collapse" aria-expanded="false" aria-controls="block-id">
+         <span class="collapsed text-danger">
+        Show more
+      </span>
+      <span class="expanded text-danger">
+        Show Less
+      </span>
+    </a>
+  
+		</div>
+		</div>
+	 <br>
+	 <!-- Footer-->
+		<footer class="page-footer font-small  navbar-light" style="background-color: #faf6d4; ">
+		     <div class="container">
+              <div class="row">
+              <div class="col-sm ">
+                 <h5 class="card-body ">Vikings Application & Services </h5>
+				 <p class="card-text  ">400 Kotla Yousf</p>
+				 <p class="card-text  ">Pt, Moti Wali Gali Sarrafa Bazar</p>
+				 <p class="card-text  ">Hapur 245101</p>
+				 
+                </div>
+                  <div class="col-sm  ">
+				     <h5 class="card-body ">Contact </h5>
+					 <p class="text-dark"><i class="fa fa-phone" aria-hidden="true"></i>
+                     <a  class="text-dark" href="tel:+917409180301">+917409180301</a>    <a class="text-dark" href="tel:+918859010985">
+                      +918859010985</a> </p>
+					  <p class="text-dark"><i class="fa fa-whatsapp" aria-hidden="true"></i> <a class="text-dark" href="https://wa.me/917409180301?text=Hello">Connect With Us</a>
+                     </p>
+            
+					<p class="text-dark"> <i class="fa fa-envelope-o" aria-hidden="true"></i> <a  class="text-dark" href="mailto:info@vikingsapplication.com">info@vikingsapplication.com</a></p>
+                     
+              
+              </div>
+                     <div class="col-sm "  >
+                     <h5 class="card-body">Follow Us</h5>
+                     <a href="https://facebook.com/vikingsapp" target="_blank" class="fun fun-facebook"><strong>f</strong></a>
+						<a href="https://www.linkedin.com/company/vikingsapp" target="_blank" class="fun fun-linkedin"><strong>in</strong></a>
+					   </div>
+                  </div>
+             </div>
+		 
+	        <!-- copy right-->
+		      <div class="footer-copyright text-center py-3 " >
+               <p>© 2020 Copyright: <span class="text-dark">Vikings Application & Services</span></p>
+             </div>
+			 
+		 </footer>
+
+	     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+                </script>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+              <script>
+      $(document).ready(function() {
+          $("body").on("contextmenu", function(e) {
+              return false;
+            });
+        });
+    </script>
+
+	 </body>
+
+</html> 

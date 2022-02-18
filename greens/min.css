@@ -1,0 +1,601 @@
+html {
+				scroll-behavior: smooth;
+			}
+			
+			
+			.navbar-fixed {position: absolute;}
+			
+
+			.bg-image {
+			  /* The image used */
+			  background-image: url("images/1.jpg");  
+
+			  /* Full height */
+			  height: 600px;
+
+			  /* Center and scale the image nicely */
+			  background-position: center;
+			  background-repeat: no-repeat;
+			  background-size: cover;
+			  position:relative;
+			}
+			.bg-text {
+			  background-color: rgb(0,0,0); /* Fallback color */
+			  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+			  color: white;
+			  font-weight: bold;
+			  border: 3px solid #f1f1f1;
+			  position: absolute;
+			  top: 40%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+			  z-index: 2;
+			  width: 80%;
+			  padding: 20px;
+			  text-align: center;
+			}
+			.topnav{
+				transition:.5s ease;
+				background-color:transparent;
+				height:93px;
+				
+				font-weight:bold;
+			
+			} 
+			.topnav.scrolled
+			{
+				background-color:green;
+				
+				
+			}
+			
+			.m-css{
+				max-height: 85%;		
+			
+			}
+			s-height{
+				height:50%;
+				width:50%;
+			
+			}
+			.bg-content{
+				position:absolute;
+				top:50%;
+				left:50%;
+				border:3px solid white;
+				background-color: rgb(0,0,0); /* Fallback color */
+			  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+			  color: white;
+			  font-weight: bold;
+			  transform: translate(-50%, -50%);
+			  z-index: 2;
+			  width: 80%;
+			  padding: 20px;
+			  text-align: center;
+			}
+			.text-content{
+				color:#DADB0D;
+			
+			}
+			.text-content1{
+				color:#B9DA17;
+			}
+			.text-content2{
+				font-size:25px;
+			}
+			.astrodivider {
+				margin:64px auto;
+				width:400px; 
+				max-width: 100%;
+				position:relative;
+			}
+
+			.astrodividermask { 
+				overflow:hidden; height:20px; 
+			}
+
+			.astrodividermask:after { 
+				content:''; 
+				display:block; margin:-25px auto 0;
+				width:100%; height:25px;  
+				border-radius:125px / 12px;
+				box-shadow:0 0 8px #09A603;
+			}
+			.astrodivider span {
+				width:50px; height:50px; 
+				position:absolute; 
+				bottom:100%; margin-bottom:-25px;
+				left:50%; margin-left:-25px;
+				border-radius:100%;
+				box-shadow:0 2px 4px #4fb39c;
+				background:#09A603;
+			}
+			.astrodivider i {
+				position:absolute;
+				top:4px; bottom:4px;
+				left:4px; right:4px;
+				border-radius:100%;
+				border:1px dashed #BABF15;
+				text-align:center;
+				line-height:40px;
+				font-style:normal;
+				 color:#BABF15;
+			}
+			@media only screen and(max-width:460px){
+				.bg-content{
+					position:absolute;
+					top:10%;
+				
+				
+				}
+			
+			
+			}
+			.img-content{
+				background-image: url('images/18.jpeg');
+				height:600px;
+				background-size:cover;
+				background-position:center;
+				background-repeat:no-repeat;
+			}
+			
+				
+			
+			.text-content4{
+				font-size:30px;
+				color:#A3D72C;
+			
+			}
+			.cd{
+			border-radius:50%;
+			position:relative;
+		}
+		
+			.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+			.MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+				.MultiCarousel .MultiCarousel-inner .item { float: left;}
+				.MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+			.MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; top:calc(50% - 20px); }
+			.MultiCarousel .leftLst { left:0; }
+			.MultiCarousel .rightLst { right:0; }
+    
+			.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+				.item {
+			  position: relative;
+			  width: 50%;
+			}
+
+
+
+			.overlay {
+			  position: absolute;
+			  top: 0%;
+			  bottom: 0;
+			  left: 0%;
+			  right: 0;
+			  height: 100%;
+			  width: 100%;
+			  opacity: 0;
+			  transition: .5s ease;
+			  background-color: green;
+			  border-radius:50%;
+			  
+			}
+
+			.cd:hover .overlay {
+			  opacity: 1;
+			}
+
+			.text {
+			  color:black!importent;
+			  position:absolute;
+			  top:28%;
+			  padding-bottom:10px;
+			  background-color:white; width:99%;
+			  border-radius:5%;
+			  font-size:25px;
+			   
+			  
+			  
+			  
+			  
+			}
+			.overlay1 {
+			  position: absolute;
+			  top: 0%;
+			  bottom: 0;
+			  left: 0%;
+			  right: 0;
+			  height: 100%;
+			  width: 100%;
+			  opacity: 0;
+			  transition: .5s ease;
+			  background-color: #c6ff00 ;
+			  border-radius:50%;
+			  
+			}
+
+			.cd:hover .overlay1 {
+			  opacity: 1;
+			}
+
+			.text1 {
+			  color:black!importent;
+			  position:absolute;
+			  top:30%;
+			  padding-bottom:5px;
+			  background-color:white; width:99%;
+			  border-radius:5%;
+			  font-size:25px;
+			   
+			  
+			  
+			  
+			  
+			}
+			.overlay2 {
+			  position: absolute;
+			  top: 0%;
+			  bottom: 0;
+			  left: 0%;
+			  right: 0;
+			  height: 100%;
+			  width: 100%;
+			  opacity: 0;
+			  transition: .5s ease;
+			  background-color: #0277bd;
+			  border-radius:50%;
+			  
+			}
+
+			.card:hover .overlay2 {
+			  opacity: 1;
+			}
+
+			.text2 {
+			  color:black!importent;
+			  position:absolute;
+			  top:30%;
+			  padding-bottom:5px;
+			  background-color:white; width:99%;
+			  border-radius:5%;
+			  font-size:25px;
+			   
+			  
+			  
+			  
+			  
+			}
+			
+			.overlay4 {
+			  position: absolute;
+			  top: 0%;
+			  bottom: 0;
+			  left: 0%;
+			  right: 0;
+			  height: 100%;
+			  width: 100%;
+			  opacity: 0;
+			  transition: .5s ease;
+			  background-color: #424242;
+			  border-radius:50%;
+			  
+			}
+
+			.cd:hover .overlay4 {
+			  opacity: 1;
+			}
+
+			.text4 {
+			  color:black!importent;
+			  position:absolute;
+			  top:30%;
+			  padding-bottom:5px;
+			  background-color:white; width:99%;
+			  border-radius:5%;
+			  font-size:25px;  
+			  
+			}
+			.overlay12 {
+			  position: absolute;
+			  top: 0%;
+			  bottom: 0;
+			  left: 0%;
+			  right: 0;
+			  height: 100%;
+			  width: 100%;
+			  opacity: 0;
+			  transition: .5s ease;
+			  background-color: #424242;
+			  border-radius:50%;
+			  
+			}
+
+			.cd:hover .overlay12 {
+			  opacity: 1;
+			}
+
+			.text12 {
+			  color:black!importent;
+			  position:absolute;
+			  top:30%;
+			  padding-bottom:5px;
+			  background-color:white; width:99%;
+			  border-radius:5%;
+			  font-size:25px;  
+			  
+			}
+			.overlay11 {
+			  position: absolute;
+			  top: 0%;
+			  bottom: 0;
+			  left: 0%;
+			  right: 0;
+			  height: 100%;
+			  width: 100%;
+			  opacity: 0;
+			  transition: .5s ease;
+			  background-color: #795548 ;
+			  border-radius:50%;
+			  
+			}
+
+			.cd:hover .overlay11 {
+			  opacity: 1;
+			}
+
+			.text11 {
+			  color:black!importent;
+			  position:absolute;
+			  top:30%;
+			  padding-bottom:5px;
+			  background-color:white; width:99%;
+			  border-radius:5%;
+			  font-size:25px;  
+			  
+			}
+			.overlay10 {
+			  position: absolute;
+			  top: 0%;
+			  bottom: 0;
+			  left: 0%;
+			  right: 0;
+			  height: 100%;
+			  width: 100%;
+			  opacity: 0;
+			  transition: .5s ease;
+			  background-color: #d50000 ;
+			  border-radius:50%;
+			  
+			}
+
+			.cd:hover .overlay10 {
+			  opacity: 1;
+			}
+
+			.text10 {
+			  color:black!importent;
+			  position:absolute;
+			  top:30%;
+			  padding-bottom:5px;
+			  background-color:white; width:99%;
+			  border-radius:5%;
+			  font-size:25px;  
+			  
+			}
+			.overlay9 {
+			  position: absolute;
+			  top: 0%;
+			  bottom: 0;
+			  left: 0%;
+			  right: 0;
+			  height: 100%;
+			  width: 100%;
+			  opacity: 0;
+			  transition: .5s ease;
+			  background-color: #263238;
+			  border-radius:50%;
+			  
+			}
+
+			.cd:hover .overlay9 {
+			  opacity: 1;
+			}
+
+			.text9 {
+			  color:black!importent;
+			  position:absolute;
+			  top:30%;
+			  padding-bottom:5px;
+			  background-color:white; width:99%;
+			  border-radius:5%;
+			  font-size:25px;  
+			  
+			}
+			.overlay5 {
+			  position: absolute;
+			  top: 0%;
+			  bottom: 0;
+			  left: 0%;
+			  right: 0;
+			  height: 100%;
+			  width: 100%;
+			  opacity: 0;
+			  transition: .5s ease;
+			  background-color: #37474f ;
+			  border-radius:50%;
+			  
+			}
+
+			.cd:hover .overlay5 {
+			  opacity: 1;
+			}
+
+			.text5 {
+			  color:black!importent;
+			  position:absolute;
+			  top:30%;
+			  padding-bottom:5px;
+			  background-color:white; width:99%;
+			  border-radius:5%;
+			  font-size:25px;  
+			  
+			}
+			.overlay6 {
+			  position: absolute;
+			  top: 0%;
+			  bottom: 0;
+			  left: 0%;
+			  right: 0;
+			  height: 100%;
+			  width: 100%;
+			  opacity: 0;
+			  transition: .5s ease;
+			  background-color: #ffa000;
+			  border-radius:50%;
+			  
+			}
+
+			.cd:hover .overlay6 {
+			  opacity: 1;
+			}
+
+			.text6 {
+			  color:black!importent;
+			  position:absolute;
+			  top:30%;
+			  padding-bottom:5px;
+			  background-color:white; width:99%;
+			  border-radius:5%;
+			  font-size:25px;  
+			  
+			}
+			.overlay7 {
+			  position: absolute;
+			  top: 0%;
+			  bottom: 0;
+			  left: 0%;
+			  right: 0;
+			  height: 100%;
+			  width: 100%;
+			  opacity: 0;
+			  transition: .5s ease;
+			  background-color: #00796b;
+			  border-radius:50%;
+			  
+			}
+
+			.cd:hover .overlay7 {
+			  opacity: 1;
+			}
+
+			.text7 {
+			  color:black!importent;
+			  position:absolute;
+			  top:30%;
+			  padding-bottom:5px;
+			  background-color:white; width:99%;
+			  border-radius:5%;
+			  font-size:25px;  
+			  
+			}
+			.overlay8 {
+			  position: absolute;
+			  top: 0%;
+			  bottom: 0;
+			  left: 0%;
+			  right: 0;
+			  height: 100%;
+			  width: 100%;
+			  opacity: 0;
+			  transition: .5s ease;
+			  background-color: #b0bec5 ;
+			  border-radius:50%;
+			  
+			}
+
+			.cd:hover .overlay8 {
+			  opacity: 1;
+			}
+
+			.text8 {
+			  color:black!importent;
+			  position:absolute;
+			  top:30%;
+			  padding-bottom:5px;
+			  background-color:white; width:99%;
+			  border-radius:5%;
+			  font-size:25px;  
+			  
+			}
+			
+			.tabs-i{
+			
+			background-color:#F2F2F2;
+			
+			}
+			
+			.bd{
+				border:3px solid white;
+				background-color: rgb(0,0,0); /* Fallback color */
+				background-color: rgba(); /* Black w/opacity/see-through */
+				color:#B9DA17;
+				font-weight: bold;
+				text-align:left;			 
+				z-index: 0;
+				width: auto;
+				padding: 20px;
+
+				height:450px;
+			
+			 }
+			 .p-content{
+				color:white;
+				font-size:15px;
+			 
+			 
+			 }
+			 .l {
+				list-style: none; /* Remove HTML bullets */
+				padding: 0;
+				margin: 0;
+			}
+
+			.uli { 
+				padding-left: 5px; 
+			}
+
+			.uli::before {
+				content: "\2022"; /* Insert content that looks like bullets */
+				padding-right: 8px;
+				color: green; /* Or a color you prefer */
+				font-weight:bold;
+			}
+			.iv{
+				position:fixed;
+				top: 50%;
+				-webkit-transform: translateY(-50%);
+				-ms-transform: translateY(-50%);
+				transform: translateY(-50%);
+				writing-mode: vertical-rl;
+				text-orientation: upright;
+				right:0;
+				z-index:1000
+
+			}
+			.iv a{
+			   height:180px;
+			   width:40px;
+			   padding:5px;
+			}
+			.iv a:hover
+			{
+				background-color: #000;
+
+			}
+			.col > .btn{
+			
+				width:100%;
+			
+			}
+								

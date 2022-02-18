@@ -1,0 +1,200 @@
+.navbar-fixed {position: absolute;z-index:999999999;}
+			* {
+			  box-sizing: border-box;
+			}
+
+			.bg-image {
+			  /* The image used */
+			  background-image: url("https://www.chennaiproperties.in/project/981/gallery/Alliance_Galleria_Residences_1.jpg");  
+
+			  /* Full height */
+			  height: 100%;
+
+			  /* Center and scale the image nicely */
+			  background-position: center;
+			  background-repeat: no-repeat;
+			  background-size: cover;
+			}
+			.bg-text {
+			  background-color: rgb(0,0,0); /* Fallback color */
+			  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+			  color: white;
+			  font-weight: bold;
+			  border: 3px solid #f1f1f1;
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+			  z-index: 2;
+			  width: 80%;
+			  padding: 20px;
+			  text-align: center;
+			}
+			.mod {
+			  background-color: rgba(255, 255, 255, 0.95);
+			  border-radius: 5px;
+			  color: #333;
+			  line-height: 1.5;
+			  max-width: 50%;
+			  position:relative;
+			  right:-150px;
+			  margin-top:30px;
+			  
+			}
+			@media only screen and (max-width: 600px) {
+				.mod{
+					background-color: rgba(255, 255, 255, 0.95);
+					border-radius: 5px;
+					color: #333;
+					line-height: 1.5;
+					max-width: 100%;
+					position:absolute;
+					left:.5%;
+					font-size:15px;
+					
+					
+			  }
+			  
+			}
+
+			@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+			  .mod {
+				-webkit-backdrop-filter: blur(5px);
+				backdrop-filter: blur(px);
+				background-color: rgba(255, 255, 255, 0.5);  
+			  }
+			}
+			 .c1{
+			
+				transform:translateY(-100px);
+				height:700px;
+				perspective:800px;
+				top:91%;
+				position:absolute;
+			}
+			.c1 .c2{
+				width:400px;
+				
+			
+			}
+			c1 .c2 img{
+				width:100%;
+				
+			}
+			@media only screen and (max-width: 600px) {
+				.c1{
+			
+					transform:translateY(-100px);
+					height:700px;
+					perspective:800px;
+					position:relative;
+					top:-7%;
+				}
+				.c1 .c2{
+					width:300px;
+					
+				
+				}
+				c1 .c2 img{
+					width:100%;
+					
+				}
+				h3, h2, h4{
+					font-size:25px;
+					
+				}
+			}
+			
+			.c{
+				list-style-position: inside;
+			}
+			.d{
+			}
+			.d::before {
+			  content: "";
+			  background-image: url("https://media4.giphy.com/media/VGiAk8CLVqlFF4N2Mi/giphy.gif");
+			  background-size: contain;
+			  display: inline-block;
+			  width: 1.2em;
+			  height: 1.2em;
+			  position: relative;
+			  top: 0.1rem;
+			  margin-right: 0.2rem;
+			  
+			  
+			}
+			html {
+				scroll-behavior: smooth;
+			}
+			hr.Two {
+				border: 0;
+				height: 1px;
+				background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+			}
+			p > .btn{
+			
+				width:100%;
+			
+			}
+			.topnav
+				{ 
+				 transition:.5s ease;
+				background-color:transparent;
+				height:80px;
+				}
+			.topnav.scrolled
+			{
+				background-color:rgb(0,0,0);
+				
+				
+			}	
+			
+			 .page-footer
+			 {
+				opacity:0.5;
+			 }
+			  {
+			
+			.new{
+			width:150px;
+			background:green;
+			color:white;
+			font-size:12px;
+			font-weight:bold;
+						}
+			 .col s12 l7 m7 h2
+				*{
+					color:#555;
+					
+				}
+			.y{
+				margin-top:100px;
+			}
+			.new{
+			width:150px;
+			background:green;
+			color:white;
+			font-size:12px;
+			font-weight:bold;
+			}
+			 .iv{
+				position:fixed;
+				top: 50%;
+				-webkit-transform: translateY(-50%);
+				-ms-transform: translateY(-50%);
+				transform: translateY(-50%);
+				writing-mode: vertical-rl;
+				text-orientation: upright;
+				right:0;
+			}
+			.iv a{
+			   height:180px;
+			   width:40px;
+			   padding:5px;
+			}
+			.iv a:hover
+			{
+				background-color: #000;
+
+			}
+			

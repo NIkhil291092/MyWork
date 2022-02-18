@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	     <meta charset="utf-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	     <title>Dunks Design Craft</title>
+		     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+			 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
+			
+			 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
+		      <link rel="icon" type="image/png" sizes="32x32"href="images/favicon.png">
+		      <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+			 <link rel="stylesheet" href="min.css">
+			 <script src="dunks.js"></script>
+      		 <style>
+			 #feedback {
+					height: 0px;
+					width: 75px;
+					position: fixed;
+					right: 0;
+					top: 50%;
+					z-index: 1000;
+					transform: rotate(-90deg);
+					-webkit-transform: rotate(-90deg);
+					-moz-transform: rotate(-90deg);
+					-o-transform: rotate(-90deg);
+					
+				}
+				#feedback a {
+					display: block;
+					background:#000;
+					height: 52px;
+					padding-top: 10px;
+					width: 155px;
+					text-align: center;
+					color: #fff;
+					font-family: Arial, sans-serif;
+					font-size: 17px;
+					font-weight: bold;
+					text-decoration: none;
+				}
+				#feedback a:hover {
+					background:#00495d;
+				}
+				
+
+			 </style>
+			 
+
+		 	 
+	 
+	 
+	 </head>
+
+    <body> 
+	     <!-- nav bar-->
+		  <nav class="navbar navbar-expand-md navbar-light  navbar-custom topnav">
+             <a class="navbar-brand" href="#" alt="responsive-image"> <img src="images/logo_transparent.png" alt="Dunks Design Craft">
+			 </a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                 <ul class="navbar-nav ml-auto">
+                     <li class="nav-item ">
+                         <a class="nav-link font-weight-bold" href="index.html" >Home </a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link font-weight-bold" href="About.html">About</a>
+                     </li>
+            
+                     <li class="nav-item dropdown navbar-custom">
+                         <a class="nav-link dropdown-toggle font-weight-bold""  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Products </a>
+                             <ul class="dropdown-menu navbar-custom" aria-labelledby="navbarDropdownMenuLink">
+                    
+                    
+                                 <li class="dropdown-submenu font-weight-bold""><a class="dropdown-item dropdown-toggle" >upvc Doors & Window </a>
+                                      <ul class="dropdown-menu dropdown-menu navbar-custom">
+                                         <li><a class="dropdown-item font-weight-bold"  href="casement.html">Casement Doors & Window</a></li>
+                                         <li><a class="dropdown-item font-weight-bold" href="sliding.html">Sliding Doors & Window</a></li>
+							             <li><a class="dropdown-item font-weight-bold" href="slide.html">Slide & Fold Doors & window</a></li>
+							             <li><a class="dropdown-item font-weight-bold" href="till.html">Till & Turn Doors & Windows</a></li>
+							             <li><a class="dropdown-item font-weight-bold" href="franch.html">Franch Doors & Windows</a></li>
+                            
+                            
+                                     </ul>
+                                 </li>
+                             </ul>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link font-weight-bold" href="Partner.html">Gallery</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link font-weight-bold" href="portfolio.html">Our Projects</a>
+                     </li>
+					 <li class="nav-item">
+                         <a class="nav-link font-weight-bold" href="glass.html">Glass</a>
+                     </li>
+					 <li class="nav-item">
+                         <a class="nav-link font-weight-bold" href="resources.html">Resources</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link font-weight-bold" href="contact.php">Contact</a>
+                     </li>
+                 </ul>
+             </div>	
+         </nav>
+		 <!--slider-->
+		 <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+  <!--Indicators-->
+             <ol class="carousel-indicators">
+				 <li data-target="#carousel-example-2" data-slide-to="0" class="active">
+				 </li>
+				 <li data-target="#carousel-example-2" data-slide-to="1">
+				 </li>
+				 <li data-target="#carousel-example-2" data-slide-to="2">
+				 </li>
+             </ol>
+  <!--/.Indicators-->
+  <!--Slides-->
+			 <div class="carousel-inner" role="listbox">
+				 <div class="carousel-item active">
+				     <div class="view">
+					         <img class="d-block w-100 " src="images/banner1.jpg" alt="First slide" width="auto" height="auto">
+					         <div class="mask rgba-black-light"></div>
+				     </div>
+				     <div class="carousel-caption">
+					         <h3 class="h3-responsive">UPVC</h3>
+					          <p>Windows</p>
+				     </div>
+				</div>
+		         <div class="carousel-item">
+      <!--Mask color-->
+                     <div class="view">
+                         <img class="d-block w-100 " src="images/banner2.jpg"  alt="Second slide" width="auto">
+                             <div class="mask rgba-black-strong">
+					         </div>
+                     </div>
+                     <div class="carousel-caption">
+                         <h3 class="h3-responsive">Sliding</h3>
+                         <p>Sliding window</p>
+                     </div>
+                 </div>
+                 <div class="carousel-item">
+      <!--Mask color-->
+                     <div class="view">
+                         <img class="d-block w-100 " src="images/banner3.jpg" alt="Third slide" width="auto">
+                         <div class="mask rgba-black-slight"></div>
+                     </div>
+                     <div class="carousel-caption">
+                         <h3 class="h3-responsive">Perimum
+				         </h3>
+                         <p>Windows </p>
+                     </div>
+                 </div>
+  
+          </div>
+  <!--/.Slides-->
+  <!--Controls-->
+		     <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+			     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			     <span class="sr-only">Previous</span>
+		      </a>
+		     <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+			     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			     <span class="sr-only">Next</span>
+		     </a>
+		  <!--/.Controls-->
+	      </div>
+	<!--Sticky modal-->
+	            
+				<div class="text-center"  id="feedback">
+                   <a href="#popup1" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">
+                      Cost Estimate</a>
+                      </div>
+			         <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                     <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+				  <div class="modal-header text-center">
+					<h4 class="modal-title w-100 font-weight-bold text-success">Write to us</h4>
+					
+					<button type="button" class="close navbar-dark" data-dismiss="modal" aria-label="Close">
+					  <div aria-hidden="true" class="text-success" > &times;</div>
+					</button>
+				  </div>
+				  <form name="frm1" action="" method="">
+				  <div class="modal-body mx-3">
+				  
+					<div class="md-form mb-5">
+					
+					  <label data-error="wrong" data-success="right" for="form34" class="text-success">Products</label>
+					      <select class="form-control " id="exampleFormControlSelect1" name="products">
+						      <option>Select Products</option>
+							  <option>Casement Window</option>
+							  <option>Casement Door</option>
+							  <option>Sliding Window</option>
+							  <option>Sliding Door</option>
+							  <option>Till & Turn Window</option>
+							  <option>Fixed Window</option>
+							  <option>Fixed Door</option>
+						</select>
+					  
+					</div>
+
+					<div class="md-form mb-5">
+					     
+					 <div class="row">
+					     <div class="col">
+						 
+							  <label data-error="wrong" data-success="right" for="form32" class="text-success">Height</label>
+							  <input type="text" id="form32" class="form-control validate" name="Quantity" required>
+					     </div>
+						 <div class="col">
+							  <label data-error="wrong" data-success="right" for="form32" class="text-success">Width</label>
+							  <input type="text" id="form32" class="form-control validate" name="Quantity" required>
+					     </div>
+					 </div> 
+					     
+					</div>
+
+					<div class="md-form mb-5">
+					  <label data-error="wrong" data-success="right" for="form32" class="text-success">Quantity</label>
+					  <input type="text" id="form32" class="form-control validate" name="Quantity" required>
+					  
+					</div>
+
+					
+					  <div class="form-group">
+						<label for="exampleFormControlSelect1" class="text-success"> Glass </label>
+						<select class="form-control" id="exampleFormControlSelect1" name="glass">
+						 <option>Please Select Size of Glass</option>
+						  <option>5 mm</option>
+						  <option>6 mm</option>
+						  <option>8 mm</option>
+						  <option>10 mm</option>
+						  
+						</select>
+					  </div>
+					  
+					  <div class="form-group">
+						<label for="exampleFormControlSelect1" class="text-success"> Category </label>
+						<select class="form-control" id="exampleFormControlSelect1" name="comment">
+						 <option>Please Select Category</option>
+						  <option>Tuffaned glass</option>
+						  <option>Plane Glass</option>
+						  <option>Non-tuffaned</option>
+						  <option>Customize Glass</option>
+						  
+						</select>
+					  </div>
+											  
+					
+
+				  </div>
+				  <div class="modal-footer d-flex justify-content-center">
+					<a class=" text-light" href="modal-form.html" ><button class="btn btn-success">Send </a></button>
+					<button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+				  </div>
+				</div>
+				</form>
+			  </div>
+			</div>
+			<!--images-->
+			<div class="container">
+
+			  <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0"> Our Partners</h1>
+
+			  <hr class="mt-2 mb-5">
+
+			  <div class="row text-center text-lg-left">
+
+				<div class="col-lg-3 col-md-4 col-6">
+				  <a href="#" class="d-block mb-4 h-100">
+						<img class="img-fluid img-thumbnail" src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+					  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				  <a href="#" class="d-block mb-4 h-100">
+						<img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
+					  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				  <a href="#" class="d-block mb-4 h-100">
+						<img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
+					  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				  <a href="#" class="d-block mb-4 h-100">
+						<img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
+					  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				  <a href="#" class="d-block mb-4 h-100">
+						<img class="img-fluid img-thumbnail" src="https://source.unsplash.com/sesveuG_rNo/400x300" alt="">
+					  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				  <a href="#" class="d-block mb-4 h-100">
+						<img class="img-fluid img-thumbnail" src="https://source.unsplash.com/AvhMzHwiE_0/400x300" alt="">
+					  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				  <a href="#" class="d-block mb-4 h-100">
+						<img class="img-fluid img-thumbnail" src="https://source.unsplash.com/2gYsZUmockw/400x300" alt="">
+					  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				  <a href="#" class="d-block mb-4 h-100">
+						<img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EMSDtjVHdQ8/400x300" alt="">
+					  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				  <a href="#" class="d-block mb-4 h-100">
+						<img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
+					  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				  <a href="#" class="d-block mb-4 h-100">
+						<img class="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
+					  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				  <a href="#" class="d-block mb-4 h-100">
+						<img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
+					  </a>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+				  <a href="#" class="d-block mb-4 h-100">
+						<img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
+					  </a>
+				</div>
+			  </div>
+
+			</div>
+			<div class="container">
+		     <h3 class="text-success Text-center">Our Clients & Assoceates</h3>
+			     <hr>
+						   
+	             <marquee behavior="scroll" direction="left">
+					<img src="images/tata.jpg" width="125" height="82" alt="Dunks-design">
+					<img src="images/wipro.jpg" width="125" height="82" alt="Dunks-design">
+					<img src="images/acc.jpg" width="125" height="82" alt="Dunks-design">
+					<img src="images/l.jpg" width="125" height="82" alt="Dunks-design">
+					<img src="images/ncc.jpg" width="125" height="82" alt="Dunks-design">
+					<img src="images/gour.jpg" width="125" height="82" alt="Dunks-design">
+					<img src="images/ansal.jpg" width="125" height="82" alt="Dunks-design">
+					<img src="images/gayatri.jpg" width="125" height="82" alt="Dunks-design">
+				</marquee>
+				<hr>
+	     </div>
+			
+			
+	 <!--footer-->
+		 <footer class="page-footer " style="background-color: #d9fffe; ">
+		     <div class="container">
+              <div class="row">
+              <div class="col-sm" >
+                 <h5 class="card-body text-dark">Dunks Design Craft </h5>
+				 <p class="card-text text-dark">B-8,400,TF</p>
+				 <p class="card-text text-dark">Sector-7 Brahamputra Enclave Siddarth Vihar</p>
+				 <p class="card-text text-dark">Delhi-NCR-201001</p>
+				 
+                </div>
+                  <div class="col-sm  ">
+				     <h5 class="card-body text-dark">Contact </h5>
+					 <p class="text-dark"><i class="fa fa-phone" aria-hidden="true"></i>
+                     <a  class="text-dark" href="tel:+919555235110">+919555235110</a>    <a class="text-dark" href="tel:+918859010985">
+                      +918859010985</a> </p>
+					  <p class="text-dark"><i class="fa fa-whatsapp" aria-hidden="true"></i> <a class="text-dark" href="https://wa.me/917409180301?text=Hello">Connect With Us</a>
+                     </p>
+            
+					<p class="text-dark"> <i class="fa fa-envelope-o" aria-hidden="true"></i> <a  class="text-dark" href="mailto:info@vikingsapplication.com">info@dunkdesign.com</a></p>
+                     
+              
+              </div>
+                     <div class="col-sm " >
+                     <h5 class="card-body  text-dark">Follow Us</h5>
+					  <div class="footer-social">
+					   
+						<div class="template-demo"> <button type="button" class="btn btn-social-icon btn-outline-facebook"><i class="fa fa-facebook"></i></button> <button type="button" class="btn btn-social-icon btn-outline-youtube"><i class="fa fa-youtube"></i></button> <button type="button" class="btn btn-social-icon btn-outline-twitter"><i class="fa fa-twitter"></i></button> <button type="button" class="btn btn-social-icon btn-outline-dribbble"><i class="fa fa-dribbble"></i></button> <button type="button" class="btn btn-social-icon btn-outline-linkedin"><i class="fa fa-linkedin"></i></button> <button type="button" class="btn btn-social-icon btn-outline-instagram"><i class="fa fa-instagram"></i></button> </div>
+					  </div>
+					   </div>
+                  </div>
+             </div>
+		 
+	        <!-- copy right-->
+		      <div class="footer-copyright text-center py-3 text-dark" >© 2020 Copyright:
+               <a href="www.vikingsapplication.com" class="text-dark"> Dunks Design Craft</a>
+             </div>
+			 </div>
+		 </footer> 
+		 
+	
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+	     
+	     
+	     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+              <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	</body>
+
+
+
+</html>			
+			
+								
+		 
